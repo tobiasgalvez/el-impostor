@@ -32,7 +32,10 @@ const MIN_PLAYERS = 3;
 const MAX_PLAYERS = 10;
 
 // --- API HELPER ---
-const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_GEMINI_API_KEY });
+//const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_GEMINI_API_KEY });
+const ai = new GoogleGenAI({
+  apiKey: import.meta.env.VITE_GEMINI_API_KEY,
+});
 
 // --- UI COMPONENTS ---
 
